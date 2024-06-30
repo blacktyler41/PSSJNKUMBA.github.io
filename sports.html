@@ -1,0 +1,135 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="image/logoooo.jpg">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAINT JOHN MINOR SEMINARY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slide.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <style>
+         #student img {
+           padding-top: 200px;
+           max-width: 100%;
+           height: auto;
+           border-radius: 10px;
+           
+
+        }
+        #student .image p {
+            margin-top: 50px;
+            margin-bottom: 2px;
+            margin-left: 20px;
+            margin-right: 20px;
+            text-align: justify;
+        }
+        #images img {
+           max-width: 100%;
+           height: auto;
+           border-radius: 10px;
+           margin-bottom: 10px;
+           margin-top: 10px;
+        }
+        
+        @media only screen and (min-width: 1024px) {
+            #student img {
+                margin-left: 100px;
+            }
+            #images img {
+                margin-left: 100px;
+            }
+        }
+
+       </style>
+</head>
+<body>
+    <!--navigation; it is about the navigation on the top of the pages-->
+    <nav>
+        <img src="image/logoooo.jpg" alt="gf" width="150" height="120">
+        <div class="navigation">
+            <ul>
+                <li><i class="fa fa-times"></i></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="achievement.html">Achievements</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="religius life.html">Religious life</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+            <img id="menu-btn" src="image/toggle.png" alt="f">
+        </div>
+    </nav>
+    <!--Student; it is about the images and the words on the page-->
+
+    <section id="student">
+        <div class="image">
+            <img src="image/sports3.JPG" alt="vj" width="1024" height="683">
+            <p>Sports play a crucial role in the life of seminarians, contributing to their holistic formation and preparing them for their future roles. Seminarians spend long hours in chapel and classrooms, engaging in intellectual and spiritual pursuits. However, both body and mind need rest. Recreation, including sports, allows seminarians to relax and rejuvenate. After participating in sports like soccer, basketball, volleyball, or jogging, seminarians return to their studies and prayers with renewed vigor and focus. Recreation also provides opportunities for seminarians to reveal their personalities, opinions, likes, and dislikes. During lively discussions or games, both good and bad qualities emerge, allowing for humility and growth. Seminarians learn from their interactions with others, fostering virtues essential for pastoral ministry. Patience and forbearance are exercised during recreational activities, preparing seminarians for the challenges they’ll face in their pastoral work. Sports encourage teamwork, cooperation, and healthy competition, allowing seminarians to bond through shared activities. These strong relationships will serve them well in their future pastoral work. Whether playing soccer on the field or engaging in in-depth conversations during walks, sports contribute to a sense of community. The Congregation for Clergy emphasizes the importance of physical exercise and sports for seminarians. These activities contribute to the overall maturity required for effective pastoral ministry. In summary, sports in seminaries go beyond physical fitness; they foster character development, community, and holistic well-being. By participating in sports, seminarians prepare themselves for a life of service and ministry.</p>
+        </div>
+        <div id="google_translate_element"></div>
+    </section>
+    <section id="images">
+        <div class="allimages">
+            <img src="image/sports4.JPG" alt="sp" width="1024" height="683">
+        </div>
+    </section>
+    <script>
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+        </script>
+    <script  src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <!--The footer-->
+    <section>
+        <footer>
+            <div class="foooter-col">
+                <h3>Combinations</h3>
+                <ul>
+                    <li>O level</li>
+                    <li>MCB</li>
+                    <li>PCB</li>
+                </ul>
+            </div>
+            <div class="foooter-col">
+                <h3>location</h3>
+                <ul>
+                    <li>Northern Province | Ruhengeri Diocese</li>
+                    <li>Burera district | Kinoni Parish</li>
+                </ul>
+            </div>
+            <div class="foooter-col">
+                <h3>Extra curricular </h3>
+                <ul>
+                    <li>Sports</li>
+                    <li>Music</li>
+                    <li>Clubs</li>
+                    <li>Debate</li>
+                </ul>
+            </div>
+    
+            <div class="copyright">
+                <p>Copyright ©2024 All rights reserved  | This template  is made by Ngabitsinze Arsene, Muhoza Cedric and Ganza Blaise Pascal</p>
+                <div class="pro-links">
+                    <a href="#"><i class="fa fa-facebook" color="blue"></i></a>
+                    <a href="#"><i class="fa fa-envelope" color="black"></i></a>
+                    <a href="#"><i class="fa fa-contact"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+    
+                </div>
+    
+            </div>
+        </footer>
+    </section>
+    <script>
+         $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('.navigation i').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,173 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="image/logoooo.jpg">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAINT JOHN MINOR SEMINARY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slide.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <style>
+        /*style about the table of the achievements and the words*/
+        #student {
+           padding-top: 250px;
+        }
+        h2 {
+            text-align: center;
+        }
+        h3 {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            text-align: center;
+
+           
+        }
+        table {
+          border-collapse: collapse;
+          width: 100%;
+         }
+         table img {
+            max-height: 100%;
+            max-width: 100%;
+         }
+         tr {
+            padding: 20px;
+         }
+
+        th, td {
+          border: 15px solid #ddd;
+          padding: 20px 10px 20px 10px; 
+          text-align: center;
+         }
+
+        th {
+           background-color: #f2f2f2;
+         }
+         
+       </style>
+</head>
+<body>
+    <!--navigation; navigation on the top of each page-->
+    <nav>
+        <img src="image/logoooo.jpg" alt="gf" width="150" height="120">
+        <div class="navigation">
+            <ul>
+                <li><i class="fa fa-times"></i></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="achievement.html">Achievements</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="religius life.html">Religious life</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+            <img id="menu-btn" src="image/toggle.png" alt="hfg">
+        </div>
+    </nav>
+    <!--Student; table about the achievements-->
+    <section id="student">
+
+        <h2>ACHIEVIEMENT IN  SPORTS</h2>
+         <table>
+            <thead>
+                <tr>
+                  <th scope="col">TEAM</th>
+                  <th scope="col">TROPHY</th>
+                  <th scope="col">YEAR</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td>
+                <img src="image/troophie.jpeg" alt="fgg" height="200" width="200">
+                <h3>Volleyball</h3>
+              </td>
+              <td>District championship</td>
+              <td>2022-2023</td>
+            </tr>
+            </tbody>
+            <tr>
+              <td>
+                <img src="image/trophy.jpg" alt="fgg" height="200" width="200">
+                <h3>Handball</h3>
+              </td>
+              <td>Intradiocesan championship</td>
+              <td>2023-2024</td>
+            </tr>
+            <tr>
+                <td>
+                  <img src="image/trophy-cup.jpg" alt="fgg" height="200" width="200">
+                  <h3>Football</h3>
+                </td>
+                <td>Intradiocesan championship</td>
+                <td>2022-2023</td>
+            </tr>
+            <tr>
+                <td>
+                  <img src="image/troph.jpg" alt="fgg" height="200" width="200">
+                  <h3>Basketball</h3>
+                </td>
+                <td>District championship</td>
+                <td>2022-2023</td>
+            </tr>
+          </table>
+    </section>
+        <div id="google_translate_element"></div>
+        <script>
+            function googleTranslateElementInit() {
+              new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+            }
+            </script>
+            <script  src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <!--The footer-->
+    <footer>
+        <div class="foooter-col">
+            <h3>Combinations</h3>
+            <ul>
+                <li>O level</li>
+                <li>MCB</li>
+                <li>PCB</li>
+            </ul>
+        </div>
+        <div class="foooter-col">
+            <h3>location</h3>
+            <ul>
+                <li>Northern Province | Ruhengeri Diocese</li>
+                <li>Burera district | Kinoni Parish</li>
+            </ul>
+        </div>
+        <div class="foooter-col">
+            <h3>Extra curricular </h3>
+            <ul>
+                <li>Sports</li>
+                <li>Music</li>
+                <li>Clubs</li>
+                <li>Debate</li>
+            </ul>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright ©2024 All rights reserved  | This template  is made by Ngabitsinze Arsene, Muhoza Cedric and Ganza Blaise Pascal</p>
+            <div class="pro-links">
+                <a href="#"><i class="fa fa-facebook" color="blue"></i></a>
+                <a href="#"><i class="fa fa-envelope" color="black"></i></a>
+                <a href="#"><i class="fa fa-contact"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+
+            </div>
+
+        </div>
+    </footer>
+    <script>
+         $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('.navigation i').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+
+</body>
+</html>

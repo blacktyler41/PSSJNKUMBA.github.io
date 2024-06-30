@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="image/logoooo.jpg">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet"  href="style.css">
+    <link rel="stylesheet"  href="slide.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <title>SAINT JOHN MINOR SEMINARY</title>
+</head>
+<!--fa-solid fa-house icon moves to home page-->
+<body>
+    <div>
+        <a href="index.html"><i class="fa-solid fa-house icon"></i></a>
+        <!--section ; contain all images in the gsllery page -->
+    </div>
+    <section>
+    <div class="full-img" id="fullImgBox">
+        <img src="images/3.jpg" alt="hgg" id="fullImg">
+        <span onclick="closefullImg()">X</span>
+    </div>
+    <div class="img-gallery">
+        <img src="image/assa.JPG" alt="asa" width="300px" height="300px" onclick="openfullImg(this.src)">
+        <img src="image/IMG_1768.JPG" alt="asa"  width="300px" height="300px" onclick="openfullImg(this.src)">
+        <img src="image/sports3.JPG" alt="asa"  width="300px" height="300px" onclick="openfullImg(this.src)">
+        <img src="image/IMG_7470.JPG" alt="asa"  width="300px" height="300px" onclick="openfullImg(this.src)">
+        <img src="image/muhabura view.jpg" alt="asa"  width="300px" height="300px" onclick="openfullImg(this.src)">
+        <img src="image/ecce mater tua.jpg" alt="asa"  width="300px" height="300px" onclick="openfullImg(this.src)">
+        <img src="image/20200827090844_5f4764abc2bf74d8ccdc1b0bjpeg.jpeg" alt="asa"  width="300px" height="300px" onclick="openfullImg(this.src)">
+        <img src="image/IMG_1813.JPG" alt="asa"  width="300px" height="300px" onclick="openfullImg(this.src)">
+        <img src="image/sports1.JPG" alt="asa"  width="300px" height="300px" onclick="openfullImg(this.src)">
+    </div>
+    </section>
+    <script>
+
+     var fullImgBox = document.getElementById("fullImgBox");
+     var fullImg = document.getElementById("fullImg");
+
+     function openfullImg(pic){
+        fullImgBox.style.display = "flex";
+        fullImg.src = pic;
+     }
+     function closefullImg(){
+        fullImgBox.style.display = "none";
+     }
+
+    </script>
+</body>
+
+</html>
+<!--The footer-->
+<footer>
+  <div class="foooter-col">
+      <h3>Combinations</h3>
+      <ul>
+          <li>O level</li>
+          <li>MCB</li>
+          <li>PCB</li>
+      </ul>
+  </div>
+  <div class="foooter-col">
+      <h3>location</h3>
+      <ul>
+          <li>Northern Province | Ruhengeri Diocese</li>
+          <li>Burera district | Kinoni Parish</li>
+      </ul>
+  </div>
+  <div class="foooter-col">
+      <h3>Extra curricular </h3>
+      <ul>
+          <li>Sports</li>
+          <li>Music</li>
+          <li>Clubs</li>
+          <li>Debate</li>
+      </ul>
+  </div>
+
+  <div class="copyright">
+      <p>Copyright ©2024 All rights reserved  | This template  is made by Ngabitsinze Arsene, Muhoza Cedric and Ganza Blaise Pascal</p>
+      <div class="pro-links">
+          <a href="#"><i class="fa fa-facebook" color="blue"></i></a>
+          <a href="#"><i class="fa fa-envelope" color="black"></i></a>
+          <a href="#"><i class="fa fa-contact"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+
+      </div>
+
+  </div>
+</footer>

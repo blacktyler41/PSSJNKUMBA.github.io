@@ -1,0 +1,139 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="image/logoooo.jpg">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAINT JOHN MINOR SEMINARY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slide.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <style>
+        /*style about the images on the page and the words*/
+        #student .image img {
+           padding-top: 180px;
+           max-width: 100%;
+           height: auto;
+           border-radius: 10px;
+           
+        }
+        #student .destino img {
+           max-width: 100%;
+           height: auto;
+           border-radius: 10px;
+           margin-top: 10px;
+           margin-bottom: 10px;
+           
+        }
+        #student .image p {
+            margin-top: 50px;
+            margin-bottom: 2px;
+            margin-left: 20px;
+            margin-right: 20px;
+            text-align: justify;
+        }
+        
+        @media only screen and (min-width: 1024px) {
+            #student img {
+                margin-left: 100px;
+            }
+            #student .destino img {
+                margin-left: 100px;
+            }
+        }
+
+
+       </style>
+</head>
+<body>
+    <!--navigation; it is about the navigation on the top of the pages-->
+    <nav>
+        <img src="image/logoooo.jpg" alt="gf" width="150" height="120">
+        <div class="navigation">
+            <ul>
+                <li><i class="fa fa-times"></i></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="achievement.html">Achievements</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="religius life.html">Religious life</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+            <img id="menu-btn" src="image/toggle.png" alt="f">
+        </div>
+    </nav>
+    <!--Student; images and words on this page-->
+
+    <section id="student">
+        <div class="image">
+            <img src="image/IMG_7474.JPG" alt="vj" width="1024" height="683">
+            <p>Education at the Ordinary Level (O Level) in minor seminaries holds significant importance in the formation of future priests. During these formative years, seminarians bridge the gap between childhood and adulthood, focusing on both academic and priestly development. The O Level curriculum encompasses Senior One, Senior Two, Senior Three, and Senior Four. It serves as a critical phase for character development, academic excellence, and early vocation formation. Minor seminaries integrate faith and learning, nurturing seminarians’ intellectual, spiritual, and pastoral dimensions. Successful completion of the O Level opens doors for further studies, whether proceeding to A Level or theological studies. Overall, education at the O Level prepares young men for the challenges of priesthood, shaping them into dedicated shepherds of the Church.
+            </p>
+            <p>Education at the Advanced Level (A Level) holds significant importance for the Catholic Church. When considering the seminary, the primary mission is to allow students to “encounter the living God who in Jesus Christ reveals his transforming love and truth” (Pope Benedict XVI). A quality Catholic education goes beyond academics; it nurtures students’ spiritual growth. At the A Level, students deepen their relationship with God, fostering a vibrant faith. Finalists from the minor seminary understand their calling as Christians to work for the common good, rooted in Christ.  Catholic education emphasizes the integration of faith and reason. A Level studies allow students to delve deeper into various subjects like Mathematics, Physics, Chemistry and Biology while maintaining their Christian worldview. This integration ensures that students not only excel academically but also live out their faith in practical ways.</p>
+        </div>
+        <div class="destino">
+            <img src="image/20221124_095224 - Copy - Copy (2).jpg" alt="vj" width="1024" height="683">
+
+        </div>
+        <div id="google_translate_element"></div>
+        <script>
+            function googleTranslateElementInit() {
+              new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+            }
+            </script>
+            <script  src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    </section>
+    <!--The footer-->
+    <section>
+        <footer>
+            <div class="foooter-col">
+                <h3>Combinations</h3>
+                <ul>
+                    <li>O level</li>
+                    <li>MCB</li>
+                    <li>PCB</li>
+                </ul>
+            </div>
+            <div class="foooter-col">
+                <h3>location</h3>
+                <ul>
+                    <li>Northern Province | Ruhengeri Diocese</li>
+                    <li>Burera district | Kinoni Parish</li>
+                </ul>
+            </div>
+            <div class="foooter-col">
+                <h3>Extra curricular </h3>
+                <ul>
+                    <li>Sports</li>
+                    <li>Music</li>
+                    <li>Clubs</li>
+                    <li>Debate</li>
+                </ul>
+            </div>
+    
+            <div class="copyright">
+                <p>Copyright ©2024 All rights reserved  | This template  is made by Ngabitsinze Arsene, Muhoza Cedric and Ganza Blaise Pascal</p>
+                <div class="pro-links">
+                    <a href="#"><i class="fa fa-facebook" color="blue"></i></a>
+                    <a href="#"><i class="fa fa-envelope" color="black"></i></a>
+                    <a href="#"><i class="fa fa-contact"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+    
+                </div>
+    
+            </div>
+        </footer>
+    </section>
+    <script>
+         $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('.navigation i').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+
+</body>
+</html>
